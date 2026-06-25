@@ -1,4 +1,4 @@
-library(ggplot2); library(bslib); library(shiny)
+library(bslib); library(shiny)
 
 PlotDens <- function(a = -1, b = 1, mean=0, sd=1, df=1, over=0) {
   library(ggplot2)
